@@ -18,7 +18,8 @@ $ copy .env.example .env
 $ php artisan key:generate
 put database credentials in .env file
 ```
-
+npm install & npm run dev
+```
 ## Create app for google, facebook and github
 ```
 For google app
@@ -35,6 +36,10 @@ Put all ids and secrets in .env file
 ```
 $ php artisan migrate
 ```
+## Run
+php artisan serve or use Laravel Valet or Laravel Homestead
+Visit localhost:8000 in your browser
+
 
 
 
